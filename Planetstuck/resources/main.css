@@ -1,0 +1,61 @@
+/* #region: Global */
+
+    * { margin: 0; }
+    /* * { image-rendering: pixelated; } */
+    body {
+        background: url('../resources/images/space.png');
+        background-size: cover;
+    }
+    header {
+        display: flex; justify-content: center;
+        font-size: 50px; padding: 20px; color: var(--green);
+    }
+    header div { padding: 0 30px; }
+
+/* #endregion */
+
+/* #region: Colors */
+
+:root {
+    --green: #52de3d;
+}
+
+/* #endregion */
+
+/* #region: Font */
+
+    @font-face {
+        font-family: 'Starbound';
+        src: url('../resources/font.ttf');
+    }
+
+    * { font-family: 'Starbound'; }
+
+/* #endregion */
+
+/* #region: Types */
+
+    .dialog {
+        image-rendering: pixelated;
+        background-position: -20px; border: 20px solid;
+        border-image: url('../resources/images/dialog.png') 20;
+        background-image: url('../resources/images/dialog.png');
+        background-size: calc(100% + 40px) calc(100% + 40px);
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle {
+        display: flex;
+        justify-content: center;
+    }
+    .next span {
+        color: royalblue; user-select: none;
+        text-decoration: underline;
+    }
+    .next:hover { cursor: pointer; }
+    .next:active span { color: tomato; }
+
+/* #endregion */

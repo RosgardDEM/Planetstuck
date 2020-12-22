@@ -1,0 +1,27 @@
+/* Main */
+
+    body { overflow: hidden; }
+    main { position: absolute; top: 0; }
+    main>* { width: 100vw; height: 100vh; }
+
+/* Name */
+
+    #name .dialog { width: 400px; }
+    #name input {
+        margin: 40px 0; font-size: 25px; outline: none;
+        text-transform: uppercase; border: 2px solid black;
+    }
+
+/* Message */
+
+    #message img {
+        margin-top: 90px;
+        position: absolute;
+        margin-right: 450px;
+    }
+    #message p {
+        font-size: 20px; width: auto;
+        margin-left: 20%; height: 85%;
+    }
+    #message .dialog { width: 500px; height: 200px; }
+    #message .next { margin-left: 20%; font-size: 20px; }

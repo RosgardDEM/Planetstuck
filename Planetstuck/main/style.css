@@ -1,0 +1,22 @@
+#icons span { width: 20px; }
+#icons>div img { height: 250px; }
+#icons h1 { margin-top: 10px; font-size: 25px; }
+#icons>div { width: 260px; height: 300px; transition: 0.3s; }
+#icons>div:hover { box-shadow: 0 0 50px var(--green); cursor: pointer; }
+
+#planet .next { width: 250px; }
+#planet .center>p { margin: 20px; }
+#planet .dialog.center { width: 1200px; }
+#planet img { height: 280px; padding: 20px; }
+
+main>img {
+    top: 50%; position: fixed;
+    left: 50%; margin-top: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+#planet {
+    top: 50%; position: fixed;
+    left: 50%; margin-top: 200vh;
+    transform: translate(-50%, -50%);
+}
